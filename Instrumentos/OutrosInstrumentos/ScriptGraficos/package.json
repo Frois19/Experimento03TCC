@@ -1,0 +1,25 @@
+{
+  "name": "first-case-students",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Lucas Gabriel Padrao e Joao Frois",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node-dev --transpile-only --ignore-watch node_modules index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/ramda": "^0.29.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "fs-promise": "^2.0.3",
+    "moment": "^2.29.4",
+    "ramda": "^0.29.0",
+    "ts-node-dev": "^2.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
